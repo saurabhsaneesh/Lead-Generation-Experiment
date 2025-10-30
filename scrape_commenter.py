@@ -1,6 +1,6 @@
 from apify_client import ApifyClient
 import csv
-client = ApifyClient("apify_api_5bscKydCARkV1xgbJuHYjzPbzB6lUt0gcamT")
+client = ApifyClient("API_TOKEN")#Enter your API Token here 
 
 # 🔍 Helper to extract company from position
 def extract_company(position):
@@ -15,7 +15,7 @@ def extract_company(position):
 
 run_input = {
     "posts": [
-                "https://www.linkedin.com/posts/hikmat-beaini_genius-marketing-idea-imagine-your-business-activity-7375777218003742720-y67i?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF_I4q8BZ3hwpD8CoEHpoJCfZSO1nAQIdIg",
+            ""
         ]  
 }
 
