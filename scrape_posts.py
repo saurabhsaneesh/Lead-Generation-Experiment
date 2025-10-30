@@ -1,7 +1,7 @@
 from apify_client import ApifyClient
 import csv
 
-client = ApifyClient("apify_api_5bscKydCARkV1xgbJuHYjzPbzB6lUt0gcamT")
+client = ApifyClient("API_TOKEN")#Enter your API Token here 
 
 
 with open("importedposts.csv", "w", newline="", encoding="utf-8") as f:
